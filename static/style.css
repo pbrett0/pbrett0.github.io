@@ -11,7 +11,7 @@ body{
     float: left;
     width: 25%;
     height: 1000px;
-    background-color: antiquewhite;
+    background-color: #8DAB7F;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,6 +55,7 @@ p{
     margin-bottom: 15px;
     padding-left: 2.5%;
     margin-left: 25%;
+    color: rgb(123, 187, 227);
 }
 
 .project_card{
@@ -64,9 +65,10 @@ p{
     height: 285px;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: aquamarine;
+    background-color:rgb(255, 243, 220) ;
     margin-left: 25%;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top:10px
 }
 
 .project_div {
@@ -78,11 +80,16 @@ p{
     max-height: 250px;
     float: left;
     padding-right: 5%;
+    padding-top: 10px;
 }
 
 .project_text{
     float: left;
-    width: 55%
+    width: 55%;
+}
+
+.project_string{
+    display: inherit;
 }
 
 .project_links{
@@ -93,7 +100,37 @@ p{
     padding-left: 2.5%;
 }
 
+a {
+    text-decoration: none;
+}
+
+.project_skills{
+    float: left;
+    width: 55%;
+    padding-left: 10px;
+}
+
 .symbol{
     max-height: 15px;
 }
 
+@media screen and (max-width: 600px){
+    .project_string{
+        font-size: smaller
+    }
+    .project_skills{
+        font-size: smaller
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+    .project_string{
+        font-size: 12px
+    }
+    .project_skills{
+        font-size: 12px
+    }
+    
+}
