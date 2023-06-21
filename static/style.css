@@ -37,6 +37,7 @@ body{
 
 .text {
     font-size: smaller;
+    font-weight: bold;
 }
 
 p{
@@ -87,6 +88,10 @@ p{
 .project_text{
     float: left;
     width: 55%;
+}
+
+h2{
+    background-color: rgb(255, 242, 218);
 }
 
 .project_text_video{
