@@ -83,6 +83,7 @@ p{
     padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10%;
 }
 
 .project_text{
@@ -135,7 +136,8 @@ a {
 }
 
 .symbol{
-    max-height: 15px;
+    padding-top: 5px;
+    max-height: 17px;
 }
 
 @media screen and (max-width: 600px){
